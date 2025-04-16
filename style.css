@@ -480,3 +480,40 @@ header {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.testimonials {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.testimonial {
+  text-align: center;
+  max-width: 200px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.testimonial p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.testimonial h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.testimonial span {
+  font-size: 14px;
+  color: #777;
+}
+
