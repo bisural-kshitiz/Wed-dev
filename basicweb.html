@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Kshitiz Bisural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Kshitiz Bisural</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="detail.html">More</a></li>
+        </ul>
+    </nav>
+    <div class="content-section">
+        <section class="about-me">
+            <h2>Basic Web Design Starting</h2>
+            <p> This project is given to provide the sudents about the use of html and css and to develop the simple web page design. The assignment was handed 
+                to the student with proper guidence and teachers support. And this is the basic web page design first step. So the project is quite simple as 
+            it is for beginner level. There is a detailed description about how the project was created on step by step basis. </p>
+        </section>
+        <section class="photo-section">
+            <h2>My work on step by step basis</h2>
+            <div class="photo-gallery">
+                <img src="photos/basicweb1.png" alt="Work 1">
+                <img src="photos/basicweb2.png" alt="Work 2">
+                <img src="photos/basicweb3.png" alt="Work 3">
+            </div>
+        </section>
+        <section class="more-info">
+            <h2>More About the project</h2>
+            <p>
+                Firstly, I checked up through the w3school and the refrence was given from the xamk learn. Then I applied it through the vs code studio 
+            and the project was created. The project is based on the basic web development which includes the HTML and CSS.
+            The project is a simple website which contains the information about me and my work. It is not completely responive
+             but I will be working on it and making it completely responive in all device category.</p>
+             <p>
+                Then, I did little bit of coding for it using html structure and the containers to adjust the size and shape of the images.
+                The css was used for it.Then step by step I checked up and the project was ready to submit. Because this is a small project
+                 I dont have a detailed descrption on it.</p>
+             <p>I uploaded it to the github.</p>
+
+        </section>
+    </div>
+    <hr>
+    <div class="social-media">
+        <p>My Social Media</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">
+                <img src="photos/facebook.png" alt="Facebook"></a>
+            <a href="#" class="social-icon">
+                <img src="photos/Instagram.png" alt="Instagram"></a>
+            <a href="#" class="social-icon">
+                <img src="photos/twit.png" alt="Twitter"></a>
+            <a href="#" class="social-icon">
+                <img src="photos/github.png" alt="Github"></a>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
