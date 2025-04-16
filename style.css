@@ -112,6 +112,19 @@ hr {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
 
 header {
   display: flex;
@@ -585,5 +598,76 @@ header {
 
 .photo-section .photo-gallery img:hover {
   transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+  .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .container {
+      padding: 0 40px;
+  }
+  
+  .profile-section {
+      padding: 30px 0;
+  }
+  
+  .section {
+      padding: 30px 0;
+  }
+  
+  .desktop-layout {
+      display: flex;
+      gap: 40px;
+      margin-top: 30px;
+  }
+  
+  .main-content {
+      flex: 2;
+  }
+  
+  .sidebar {
+      flex: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .container {
+      padding: 0 60px;
+  }
+  
+  .profile-section {
+      padding: 40px 0;
+  }
+  
+  .section-title {
+      font-size: 28px;
+  }
+  
+  .education-details h3 {
+      font-size: 20px;
+  }
+  
+  nav {
+      display: flex;
+      gap: 20px;
+  }
+  
+  nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+  }
+  
+  nav a.active {
+      background-color: #a4ad7f;
+      color: white;
+      border-radius: 4px;
+  }
 }
 

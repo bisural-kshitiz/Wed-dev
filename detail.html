@@ -9,6 +9,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">Kshitiz Bisural</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -58,5 +59,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

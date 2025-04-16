@@ -9,6 +9,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">Kshitiz Bisural</div>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
         <ul class="nav-links">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -16,12 +17,21 @@
             <li><a href="detail.html">More</a></li>
         </ul>
     </nav>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
     <div class="container">
         <header>
             <div class="profile-section">
                 <div class="profile-text">
                     <h1>Hi, I am Kshitiz Bisural</h1>
-                    <p>Hi, I am a beginner level game programmer. 
+                    <p>Hi, I am a beginner level game programmer. Welcome to my website.You could find a basic web page which has been created
+                        through the HTML and CSS. I am a student of Xamk University, Finland. I am a game developer and I am learning about the game development.
+                        I am a Nepalese student and I am currently studying in Finland. I am a game developer and I am learning about the game development.
+                        And I will make my portofolio better with time to create it as a professional game developer portfolio.
                     </p>
                 </div>
                 <div class="profile-image">
